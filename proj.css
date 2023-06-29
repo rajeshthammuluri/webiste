@@ -1,0 +1,210 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+nav{
+	color:white;
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+	padding: 10px;
+  background-color:transparent;
+
+}
+nav ul{
+	display: flex;
+	margin: 20px;
+	padding: 10px;
+	list-style: none;
+  color:rgb(23, 24, 26);
+  font-size: 1.2em;
+
+}
+nav li{
+	position: relative;
+	margin: 0 20px;
+
+}
+.ho ul :hover{
+color: red;
+}
+.btn{
+	width: 100%;
+	height: 10px;
+  background-color: transparent;
+	color: rgb(74, 64, 143);
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 100%;
+  transition: .03s;
+  transform: scale(0.5s);
+  padding-bottom: 20px;
+}
+.btn:hover{
+  transform: translateY(3px);
+			background-color:transparent;
+	}
+  .text {
+    text-align: center;
+    background-color: rgb(11, 52, 107)
+      }
+      .text h1{
+        font-style:italic;
+        font-size: 50px;
+        color:rgb(233, 237, 242)
+      }
+  *{
+      box-sizing: border-box;
+    }
+  .menu{
+    margin: auto;
+    padding: 50px;
+  }
+  .menu img{
+    float: right;
+    padding: 20px;
+    border-radius: 10px;
+}
+  .menu button{
+    color: red;
+    background-color: rgb(242, 243, 245);
+    height: 45px;
+    width:100px;
+    transition: .05s;
+    transform: scaleX(1);
+  }
+  .menu button:hover{
+    transform: translateX(10px);
+  }
+  .menu h2{
+    color: rgb(70, 108, 158)
+  }
+  .menu h3{
+    color: rgb(13, 35, 92)
+  }
+  .menu p{
+    font-size: 20px;
+    font-family: 'LektonCodeRegular';
+   font-weight: normal;
+   font-style: normal;
+    color: rgb(23, 24, 26)
+  }
+  .pr img{
+    border-radius: 10px;
+  }
+  .pr{
+    margin: auto;
+    padding: 40px;
+  }
+  .pr ul li{
+    padding: 20px;
+    font-size: 30px;
+    background-color:rgba(79, 97, 140, 1);
+  }
+  .pr ul li{
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+  }
+  .pr h2{
+    color: rgb(108, 112, 117)
+  }
+  .pr p{
+    color: rgb(21, 58, 153)
+  }
+  .li h1{
+    color: rgb(70, 108, 158)
+  }
+  .li h3{
+    color: rgb(151, 142, 209)
+  }
+  .li img{
+    float: right;
+    border-radius: 10px;
+
+  }
+  form{
+
+    width: 80%;
+    padding: 40px;
+    margin: 0;
+  	}
+
+  form button{
+  		background-color: rgb(86, 103, 143);
+  		color: white;
+  		border-radius: 10px;
+  		padding: 12px 15px;
+    	}
+
+  input{
+  	  appearance: none;
+  	  width: 350px;
+      margin: 10px;
+      padding: 10px 40px 20px 20px;
+  		display: inline;
+  		font-size: 25px;
+  		font-weight: 200;
+
+  }
+
+  footer{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/542/50/545/simple-background-blue-simple-minimalism-wallpaper-preview.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+    color:rgb(228, 237, 237);
+    padding: 10px;
+  }
+  .container{
+  	max-width: 1200px;
+  	margin: 0 auto;
+  	padding: 0 20px;
+  }
+
+  .row{
+  	display: flex;
+  	flex-wrap: wrap;
+
+  }
+  footer img{
+    height: 50%;
+    width: 50%;
+  }
+  .col{
+  	flex: 1;
+  	padding: 0 10px;
+}
+.col h2{
+  color: rgb(1, 16, 36)
+}
+  h2{
+  	margin-top: 0;
+  }
+  ul{
+  	list-style: none;
+  	padding: 0;
+  	margin: 0;
+  }
+  ul li{
+  	margin-bottom: 0;
+
+  }
+  a{
+  	color:rgb(127, 134, 143);
+  	text-decoration: none;
+  }
+  p{
+  	color: rgb(167, 173, 181);
+  }
+  a:hover{
+  	text-decoration: underline;
+  }
+  .col ul li:hover{
+    color: rgb(62, 50, 143)
+  }
+ .ri p{
+    text-align: center;
+    color: white;
+  }
